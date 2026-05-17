@@ -155,7 +155,18 @@ try {
     $stmtInv->execute(['Xoài cát xanh', 15.5, 'kg']);
 
     // Render success feedback
-    require_once '../app/views/layouts/header.php';
+    if (php_sapi_name() === 'cli') {
+        echo "\n=============================================\n";
+        echo "KHỞI TẠO CƠ SỞ DỮ LIỆU THÀNH CÔNG (InnoDB)\n";
+        echo "=============================================\n";
+        echo "Tài khoản Giám Đốc: admin / admin123\n";
+        echo "Tài khoản Kế Toán: ketoan / ketoan123\n";
+        echo "Tài khoản Bếp Trưởng: amthuc / amthuc123\n";
+        echo "Tài khoản Thu Ngân: thungan / thungan123\n\n";
+        exit;
+    }
+
+    require_once dirname(__DIR__) . '/app/views/layouts/header.php';
     ?>
     <main style="padding: 100px 0; background-color: #faf7f2; text-align: center;">
         <div class="wrap-content" style="max-width: 600px; margin: 0 auto; background: #ffffff; padding: 50px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.06); border-top: 4px solid var(--secondary);">
@@ -177,7 +188,7 @@ try {
         </div>
     </main>
     <?php
-    require_once '../app/views/layouts/footer.php';
+    require_once dirname(__DIR__) . '/app/views/layouts/footer.php';
 } catch (PDOException $e) {
     echo "<div style='padding:50px; background:#fdf2f2; color:#ec5b5b; border-radius:6px; font-family:sans-serif;'>";
     echo "<h3>Lỗi kết nối hoặc khởi tạo CSDL:</h3>";

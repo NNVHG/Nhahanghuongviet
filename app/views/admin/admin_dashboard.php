@@ -1,6 +1,12 @@
 <?php
 // app/views/admin/admin_dashboard.php
 // Highly aesthetic admin dashboard panel matching active user roles
+
+/** @var string $fullName */
+$fullName = $fullName ?? 'Quản trị viên';
+
+/** @var string $role */
+$role = $role ?? 'GiamDoc';
 ?>
 
 <main class="admin-dashboard" style="padding: 60px 0; background-color: #faf7f2; min-height: 550px;">

@@ -1,6 +1,9 @@
 <?php
 // app/views/admin/admin_reservations.php
 // Highly aesthetic presentation view for customer bookings
+
+/** @var array $reservations */
+$reservations = $reservations ?? [];
 ?>
 
 <main style="padding: 60px 0; background-color: #faf7f2; min-height: 600px;">

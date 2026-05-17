@@ -1,6 +1,9 @@
 <?php
 // app/views/admin/admin_users.php
 // Clean, beautiful view for staff personnel management
+
+/** @var array $users */
+$users = $users ?? [];
 ?>
 
 <main class="admin-page" style="padding: 60px 0; background-color: #faf7f2; min-height: 600px;">

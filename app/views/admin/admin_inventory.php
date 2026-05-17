@@ -1,6 +1,9 @@
 <?php
 // app/views/admin/admin_inventory.php
 // Highly aesthetic presentation view for stock inventory management
+
+/** @var array $inventory */
+$inventory = $inventory ?? [];
 ?>
 
 <main style="padding: 60px 0; background-color: #faf7f2; min-height: 600px;">

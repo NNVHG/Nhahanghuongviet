@@ -2,11 +2,14 @@
 // classes/Customer.php
 class Customer
 {
-    public $name;
-    public $phone;
-    public $type; // VangLai, VIP, KhachQuen
+    /** @var string */
+    public string $name;
+    /** @var string */
+    public string $phone;
+    /** @var string */
+    public string $type; // VangLai, VIP, KhachQuen
 
-    public function __construct($name, $phone, $type = 'VangLai')
+    public function __construct(string $name, string $phone, string $type = 'VangLai')
     {
         $this->name = $name;
         $this->phone = $phone;

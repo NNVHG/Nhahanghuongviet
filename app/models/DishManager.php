@@ -4,9 +4,10 @@ require_once 'includes/db_connect.php';
 
 class DishManager
 {
-    private $pdo;
+    /** @var PDO */
+    private PDO $pdo;
 
-    public function __construct($pdo)
+    public function __construct(PDO $pdo)
     {
         $this->pdo = $pdo;
     }

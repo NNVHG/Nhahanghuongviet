@@ -2,11 +2,14 @@
 // classes/User.php
 abstract class User
 {
-    protected $id;
-    protected $fullName;
-    protected $role;
+    /** @var int */
+    protected int $id;
+    /** @var string */
+    protected string $fullName;
+    /** @var string */
+    protected string $role;
 
-    public function __construct($id, $fullName, $role)
+    public function __construct(int $id, string $fullName, string $role)
     {
         $this->id = $id;
         $this->fullName = $fullName;
@@ -18,7 +21,7 @@ abstract class User
 
 class Manager extends User
 {
-    public function __construct($id, $fullName, $role)
+    public function __construct(int $id, string $fullName, string $role)
     {
         parent::__construct($id, $fullName, $role); // GiamDoc, TruongPhong...
     }
@@ -31,7 +34,7 @@ class Manager extends User
 
 class Employee extends User
 {
-    public function __construct($id, $fullName, $role)
+    public function __construct(int $id, string $fullName, string $role)
     {
         parent::__construct($id, $fullName, $role); // ThuNgan, PhucVu...
     }

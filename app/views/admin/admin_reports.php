@@ -1,6 +1,24 @@
 <?php
 // app/views/admin/admin_reports.php
 // Highly stunning and visual reporting charts view
+
+/** @var int $totalCustomers */
+$totalCustomers = $totalCustomers ?? 0;
+
+/** @var int $totalReservations */
+$totalReservations = $totalReservations ?? 0;
+
+/** @var int $completedReservations */
+$completedReservations = $completedReservations ?? 0;
+
+/** @var int $totalDishes */
+$totalDishes = $totalDishes ?? 0;
+
+/** @var array $tableStats */
+$tableStats = $tableStats ?? [];
+
+/** @var array $customerStats */
+$customerStats = $customerStats ?? [];
 ?>
 
 <main class="admin-page" style="padding: 60px 0; background-color: #faf7f2; min-height: 600px;">
