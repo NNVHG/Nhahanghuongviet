@@ -37,6 +37,17 @@ Chào mừng bạn đến với dự án **Ẩm Thực Hương Việt Bến Cát
 
 ## 📂 3. demo
 
+<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/7c04881d-8b14-4f8c-bb23-e1d8624d49fd" />
+
+<img width="1896" height="990" alt="image" src="https://github.com/user-attachments/assets/829a9c87-185b-441b-8428-de3c91ffffd4" />
+
+<img width="1901" height="989" alt="image" src="https://github.com/user-attachments/assets/74e45b3f-503a-4395-8d9b-408267b35b5d" />
+
+<img width="1895" height="991" alt="image" src="https://github.com/user-attachments/assets/27216e1d-5681-4e99-aea9-3e4149dd8f6c" />
+
+<img width="1897" height="991" alt="image" src="https://github.com/user-attachments/assets/69b7f345-fbbc-4ace-bfd0-8d4c4303a449" />
+
+<img width="1916" height="527" alt="image" src="https://github.com/user-attachments/assets/294cf6b5-6383-4249-9f8d-b8e1680b14e0" />
 
 ---
 
